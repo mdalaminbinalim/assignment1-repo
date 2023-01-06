@@ -1,0 +1,22 @@
+/* Banner or header styles */
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding: 80px  200px 290px 700px;
+}
+.main-head {
+    font-family: 'Kavoon', cursive;
+    color: white;
+    font-size: 60px;
+    margin-right: 0px;
+}
+p {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    margin: 30px 0px 30px 150px;
+}
+.btn-1 {
+    background-color: white;
+}
