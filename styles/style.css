@@ -5,14 +5,14 @@ header {
     background-size: cover;
     text-align: right;
     padding: 80px  200px 290px 700px;
+    font-family: 'Kavoon', cursive;
 }
 .main-head {
-    font-family: 'Kavoon', cursive;
     color: white;
     font-size: 60px;
     margin-right: 0px;
 }
-p {
+#head-paragraph {
     font-family: 'Rowdies', cursive;
     color: white;
     margin: 30px 0px 30px 150px;
@@ -22,12 +22,143 @@ p {
     background-color: white;
     color: blue;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 100;
     border: none;
     border-radius: 5px;
-    padding: 15px 10px;
-
+    padding: 15px;
+    font-family: 'Rowdies', cursive;
 }
 a {
     text-decoration: none;
+}
+
+/* Main body styles */
+/* Failure styles */
+ul li {
+    list-style: none;
+}
+.failure-section {
+    display: flex;
+    gap: 40px;
+}
+.failure-img {
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.failure-description {
+    margin: 350px 250px 0 20px;
+}
+#failure-p {
+    font-size: 16px;
+    font-family: 'Rowdies', cursive;
+}
+#failure-head {
+    font-size: 30px;
+    font-family: 'Kavoon', cursive;
+}
+ul {
+    font-family: 'Rowdies', cursive;
+}
+
+/* Success styles */
+.success-section {
+    display: flex;
+}
+.success-description {
+    margin: 150px 50px 0 100px;
+    font-family: 'Rowdies', cursive;
+}
+.success-img {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.success-head {
+    font-family: 'Kavoon', cursive;
+}
+
+/* Plan styles */
+.plan-section {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    margin-left: 150px;
+}
+.plans {
+    font-size: 25px;
+    margin-top: 50px;
+}
+.plans-p {
+    font-family: 'Rowdies', cursive;
+}
+.plan-subhead {
+    font-family: 'Kavoon', cursive;
+    font-weight: 100;
+}
+.plan-head {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Kavoon', cursive;
+    font-size: 45px;
+}
+/* Ending styles */
+.ending h1 {
+    font-size: 40px;
+    font-family: 'Kavoon', cursive;
+    color: white;
+    font-weight:lighter;
+}
+.ending {
+    margin-top: 100px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin-left: 170px;
+    padding: 30px 300px 50px 50px;
+    border-radius: 10px;
+}
+/* Footer styles */
+.footer-style {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    background-color: black;
+    mix-blend-mode: darken;
+}
+.footer-text h1 {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+}
+.icons img{
+    background-color: white;
+    padding: 0px;
+    border-radius: 50%;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+}
+.footer-form h1{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+}
+.footer-text p {
+    font-family: 'Rowdies', cursive;
+    color: white;
+}
+.footer-text {
+    padding: 100px 200px 150px 200px;
+}
+.footer-form {
+    padding: 100px 350px 150px 100px;
+}
+.footer-form input {
+    border: 2px solid darkslategray;
+    font-size: 20px;
+    background-color:black ;
+    border-radius: 5px;
+    padding: 15px 50px 15px 15px;
+    font-family: 'Rowdies', cursive;
 }
