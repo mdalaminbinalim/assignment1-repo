@@ -4,7 +4,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-    padding: 80px  200px 290px 700px;
+    padding: 120px  150px 290px 750px;
     font-family: 'Kavoon', cursive;
 }
 .main-head {
@@ -149,7 +149,7 @@ ul {
     color: white;
 }
 .footer-text {
-    padding: 100px 200px 150px 200px;
+    padding: 100px 30px 150px 200px;
 }
 .footer-form {
     padding: 100px 350px 150px 100px;
@@ -161,4 +161,14 @@ ul {
     border-radius: 5px;
     padding: 15px 50px 15px 15px;
     font-family: 'Rowdies', cursive;
+}
+.btn-2 {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    background-color: #296EB4;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
 }
